@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/city_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:hint="请输出城市   类如：北京"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/getWeather"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="获取天气" />
+
+</LinearLayout>
